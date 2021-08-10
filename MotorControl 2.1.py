@@ -4,7 +4,7 @@
 # uses https://beta.pybricks.com/ , LEGO City hub, LEGO remote control
 # connect 1 or 2 motors of any kind to Port A and B
 #
-# Version 2.0 / This is a beta, so no guarantee for proper function ;-)
+# Version 2.1 / This is a beta, so no guarantee for proper function ;-)
 # -----------------------------------------------
 
 from pybricks.pupdevices import DCMotor, Motor, Remote
