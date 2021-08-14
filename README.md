@@ -11,7 +11,29 @@ You need:
 * LEGO City hub, LEGO remote control
 
 When installed in your hub no Smart device is needed any more.
-
 Connect 1 or 2 motors of any kind to Port A and/or B
 
+# Customizing
+In the first section you find same parameters to customize the control
+
+You can use two profiles to set 
+* minimum speed
+* maximum speed
+* accelerate in steps of ...
+* wait for next acceleration step(in ms)
+
+*Example*
+Profil_A = (20,100,10,100)
+
+Set the direction of the two motors
+dirMotorA = 1       # Direction 1 or -1
+dirMotorB = 1       # Direction 1 or -1
+
+*accelarate continously when holding butten* 
+*autoacc = True     (or „False“) 
+
+*# assign buttons to function* 
+*UP = "A+" means: use the A+ buttonto increase speed
+
+„Switch“ changes between Profil_A and Profil_B
 
