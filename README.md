@@ -6,12 +6,9 @@ Use the first lines to configure according you needs.
 
 # Requirements
 You need:
-
-Browser with Bluetooth support, like Chrome or Edge
-
-The editor:  https://beta.pybricks.com/ 
-
-LEGO City hub, LEGO remote control
+* Browser with Bluetooth support, like Chrome or Edge
+* The editor:  https://beta.pybricks.com/ 
+* LEGO City hub, LEGO remote control
 
 When installed in your hub no Smart device is needed any more.
 
