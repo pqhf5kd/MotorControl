@@ -38,3 +38,15 @@ assign buttons to function
 
 „Switch“ changes between Profil_A and Profil_B
 
+Watchdog\
+Stop motors when loosing remote connection
+*watchdog = True*
+Continue driving when connection is lost, you can reconnect the remote by pressing the green button
+*watchdog = False*
+
+Hub waits x seconds for remote connect after starting hub 
+*remoteTimeout =3*
+
+Color and brightness of Hub LEDs
+*LEDconn = Color.GREEN*0.3*       # if Hub connected, color * brightness
+*LEDnotconn = Color.RED*0.5*      # if Hub is not connect, color * brightness
