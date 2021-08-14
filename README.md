@@ -11,6 +11,6 @@ The editor:  https://beta.pybricks.com/
 LEGO City hub, LEGO remote control
 
 When installed in your hub no Smarr device is neede any more.
+Connect 1 or 2 motors of any kind to Port A and/or B
 
-connect 1 or 2 motors of any kind to Port A and/or B
 
