@@ -38,7 +38,7 @@ assign buttons to function
 
 „Switch“ changes between Profil_A and Profil_B
 
-Watchdog\
+Watchdog
 Stop motors when loosing remote connection
 *watchdog = True*
 Continue driving when connection is lost, you can reconnect the remote by pressing the green button
