@@ -48,6 +48,6 @@ Hub waits x seconds for remote connect after starting hub \
 *remoteTimeout =3*
 
 Color and brightness of Hub LEDs\
-*LEDconn = Color.GREEN*0.3*       # if Hub connected, color * brightness \
-*LEDnotconn = Color.RED*0.5*      # if Hub is not connect, color * brightness \
+*LEDconn = Color.GREEN*0.3*           # if remote is connected, color * brightness \
+*LEDnotconn = Color.RED*0.5*          # if remote is not connected, color * brightness \
 Set brightness to 0 for "off"
