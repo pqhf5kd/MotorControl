@@ -23,6 +23,7 @@ You can use two profiles to set
 * wait for next acceleration step(in ms)
 
 *Example*
+
 Profil_A = (20,100,10,100)
 
 Set the direction of the two motors
