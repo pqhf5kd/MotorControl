@@ -26,8 +26,9 @@ You can use two profiles to set
 *Profil_A = (20,100,10,100)*
 
 Set the direction of the two motors\
-*dirMotorA = 1       # Direction 1 or -1*\
-*dirMotorB = 1       # Direction 1 or -1*
+*dirMotorA = 1*\       
+*dirMotorB = -1*\
+B will rotate opposite to A
 
 Accelarate continously when holding button\ 
 *autoacc = True     (or „False“)* 
