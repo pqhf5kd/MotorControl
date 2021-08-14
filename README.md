@@ -40,7 +40,7 @@ assign buttons to function
 
 Watchdog\
 Stop motors when loosing remote connection\
-*watchdog = True*
+*watchdog = True* \
 Continue driving when connection is lost, you can reconnect the remote by pressing the green button\
 *watchdog = False*
 
