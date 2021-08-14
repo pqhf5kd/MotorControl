@@ -22,12 +22,11 @@ You can use two profiles to set
 * accelerate in steps of ...
 * wait for next acceleration step(in ms)
 
-*Example*
-
+*Example*\
 Profil_A = (20,100,10,100)
 
-Set the direction of the two motors
-dirMotorA = 1       # Direction 1 or -1
+Set the direction of the two motors\
+dirMotorA = 1       # Direction 1 or -1\
 dirMotorB = 1       # Direction 1 or -1
 
 *accelarate continously when holding butten* 
