@@ -1,4 +1,4 @@
-## Install Pybricks on hub
+## Install Pybricks on hub 
 
 * disconnect all devices from hub
 * Turn off(!) hub (Important: remove one of the batteries for a second to be sure!)
@@ -21,3 +21,6 @@
 
 * open the program in the editor (folder Icon)
 * download and run the program with the "play" button
+
+This is not permanent, when turning hub off you have restart at "Connect hub"\
+But in this mode you can easily customize the parameters 
