@@ -33,4 +33,4 @@ Then you can
 * start this program standalone
 * open and modify any other program and run (but this is, again, only temporarily
 
-In other words: every permanent change requeires to reinstall FW incl. program.
+In other words: every permanent change requires to reinstall FW incl. program.
