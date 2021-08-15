@@ -5,7 +5,7 @@
 * Click on “Install Pybricks firmware” icon (the brick with an arrow) , scan window is opened
 * Press hub button app. 10 secs till LED is blinking purple, do not release button
 * “LEGO Bootloader” appears in scan window as a device
-* Mark that and click “connect”
+* Mark that and click “pair”
 * Hub LED status changes to red/blue/green, release button
 * this may take some minutes, progress is shown in Icon as a spinner
 
@@ -14,7 +14,7 @@
 * Click on “Connect using Blutooth” icon (the Bluetooth icon) , scan window is opened
 * Press hub button to turn on
 * Hub name appears in scan window as a device
-* Mark that and click “connect”, progress is shown in Icon as a spinner
+* Mark that and click “pair”, progress is shown in Icon as a spinner
 * hub LED turns to blue
 
 ## Loading a program
