@@ -2,6 +2,7 @@
 
 * disconnect all devices from hub
 * Turn off(!) hub (Important: remove one of the batteries for a second to be sure!)
+* goto https://beta.pybricks.com/
 * Click on “Install Pybricks firmware” icon (the brick with an arrow) , scan window is opened
 * Press hub button app. 10 secs till LED is blinking purple, do not release button
 * “LEGO Bootloader” appears in scan window as a device
