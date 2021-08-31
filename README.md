@@ -25,6 +25,9 @@ You can use two profiles to set
 Example\
 *Profil_A = (20,100,10,100)*
 
+They both influence all  motors connected and can be used to have two types of acceleration
+They do not switch to other buttons or anything else
+
 Set the direction of the two motors\
 *dirMotorA = 1*        
 *dirMotorB = -1* \
@@ -51,3 +54,11 @@ Color and brightness of Hub LEDs\
 *LEDconn = Color.GREEN* * *0.3*           # if remote is connected, color * brightness \
 *LEDnotconn = Color.RED* * *0.5*          # if remote is not connected, color * brightness \
 Set brightness to 0 for "off"
+
+**New with Version 2.4**
+
+*remoteName = ""     # connect this remote only*
+"" connects to any remote
+
+*LED_A = Color.GREEN* * *0.3*       # Remote Profil_A, color * brightness
+*LED_B = Color.RED* * *0.5*      # Remote Profil_B, color * brightness
