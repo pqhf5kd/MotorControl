@@ -61,4 +61,4 @@ Set brightness to 0 for "off"
 "" connects to any remote
 
 *LED_A = Color.GREEN* * *0.3*       # Remote Profil_A, color * brightness \
-*LED_B = Color.RED* * *0.5*      # Remote Profil_B, color * brightness \
+*LED_B = Color.RED* * *0.5*      # Remote Profil_B, color * brightness 
