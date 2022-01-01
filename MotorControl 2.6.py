@@ -85,7 +85,8 @@ def function1():
                 v = 0
             drive()
             wait (accdelay)  
-            if v==0: 
+            if v==0:
+                stopm()
                 break 
         # further acceleration if button keeps pressed
         while autoacc == False and CheckButton(UP) :    
@@ -105,7 +106,8 @@ def function1():
                 v = 0   
             drive()
             wait (accdelay)  
-            if v==0: 
+            if v==0:
+                stopm()
                 break 
         # further acceleration if button keeps pressed
         while autoacc == False and CheckButton(DOWN) :    
@@ -210,6 +212,15 @@ def drive():
             if motor[x].getDir() != 0 and motor[x].getType() == "Motor" : motor[x].obj.run(s*10)
             if motor[x].getDir() != 0 and motor[x].getType() == "DCMotor" : motor[x].obj.dc(s) 
         vold = v
+        
+# ----stop -------------------------------------------
+        
+def stopm():
+        for x in range(1,3):
+            # real motor commands depending on motor type
+            if motor[x].getDir() != 0 and motor[x].getType() == "Motor" : motor[x].obj.stop()
+            if motor[x].getDir() != 0 and motor[x].getType() == "DCMotor" : motor[x].obj.dc(0) 
+
             
 # ----portcheck -------------------------------------------
 
